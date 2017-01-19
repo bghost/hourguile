@@ -8,5 +8,9 @@ features = ["blog"]
 min_version = 0.17
 
 [author]
+  name = "bghost"
+  homepage = "https://github.com/bghost"
+
+[original]
   name = "Vimux"
   homepage = "https://github.com/vimux"
