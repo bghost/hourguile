@@ -1,56 +1,37 @@
 * {
-	font-family: Inconsolata, "Noto Mono", monospace; 
+    font-family: Inconsolata, "Noto Mono", monospace;
 }
 
 body {
-	background: #FFFFFF;
+    color: #888;
+    background: #181818;
+    max-width: 50em;
+}
+
+.frontmatter h3 {
+    color: #C8C8C8;
+}
+
+h1,
+h2,
+h3 {
+    color: #FFF;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 a:link,
 a:visited {
-	color: #f30;
+    color: #F36;
     font-weight: bold;
 }
 
 a:hover {
-	color: #f90;
+    color: #f90;
 }
 
-/**
-.code {
-	font: 1em "Anonymous Pro", "Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-	color: #e0e0e0;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	-moz-background-clip: padding;
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-	border: 1px solid #ccc;
-	background-color: #000012;
-	padding: 0px 3px;
-	display: inline-block;
-	margin: 0px;
+pre {
+    overflow:auto;
 }
-
-.pre {
-	border: 1px solid #cacaca;
-	line-height: 1.2em;
-	font: .85em "Anonymous Pro", "Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-	padding: 10px;
-	overflow:auto;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	-moz-background-clip: padding;
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-	background-color: #FAFAFB;
-	color: #393939;
-	margin: 0px;
-}
-**/

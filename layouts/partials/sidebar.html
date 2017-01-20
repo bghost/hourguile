@@ -5,7 +5,7 @@
         </div>
         <div>
             <ul>
-                {{ range first 5 .Site.Pages }}
+                {{ range first 15 .Site.Pages }}
                     {{ if eq .Type "post" }}
                     <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
                     {{ end }}
