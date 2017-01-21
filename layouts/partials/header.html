@@ -8,14 +8,15 @@
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto+Mono" rel="stylesheet">
 	{{ if .RSSLink -}}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
 	{{ .Hugo.Generator }}
 </head>
 <body>
 	<header>
-		<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
 		<nav>
 			<ul>
+                <li><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></li>
 				{{ range .Site.Menus.main }}
 				<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
 				{{ end }}

@@ -1,11 +1,17 @@
 * {
-    font-family: Inconsolata, "Noto Mono", monospace;
+    font-family: Inconsolata, "Roboto Mono", "Noto Mono", monospace;
+}
+
+#main {
+    margin: 3em;
 }
 
 body {
+    margin: 3em;
     color: #888;
     background: #181818;
     max-width: 50em;
+    padding: 1em 0em 1em 0em;
 }
 
 .frontmatter h3 {
@@ -30,8 +36,54 @@ a:visited {
 
 a:hover {
     color: #f90;
+    font-style: italic;
 }
 
 pre {
     overflow:auto;
+}
+
+nav ul, nav li {
+    list-style: none;
+    display: inline-table;
+    margin-right: 3em;
+}
+
+nav a:active {
+    color: #181818;
+    background-color: #F36
+}
+
+header {
+    background-color: #181818;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding-left: 1em;
+}
+footer {
+    background-color: #181818;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 3em;
+    clear: both;
+}
+
+.right_wing {
+    display: block;
+    position: fixed;
+    right: 20px;
+    padding-right: 5%;
+    margin-left: 20px!important;
+}
+
+.right_wing ul, .right_wing li {
+    list-style: none;
+}
+
+.page {
+    font-weight: bolder;
 }
