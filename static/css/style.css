@@ -118,7 +118,7 @@ and (orientation: portrait)
         word-wrap: break-word;
     }
     article {
-        padding-top: 1em;
+        padding-top: 2em;
     }
     .right_wing {
         position: absolute;
