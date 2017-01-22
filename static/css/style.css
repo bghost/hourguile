@@ -72,11 +72,19 @@ footer {
     clear: both;
 }
 
+.left_wing {
+    display: inline;
+    position: fixed;
+    left: 20px;
+    padding-left: 3%;
+    margin-right: 20px!important;
+}
+
 .right_wing {
-    display: block;
+    display: inline;
     position: fixed;
     right: 20px;
-    padding-right: 5%;
+    padding-right: 3%;
     margin-left: 20px!important;
 }
 
@@ -86,4 +94,14 @@ footer {
 
 .page {
     font-weight: bolder;
+}
+
+.paginate {
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin: 1em 0 0 0;
+}
+time {
+    color: #C8C8C8;
 }
