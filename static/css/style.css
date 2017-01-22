@@ -120,6 +120,11 @@ and (orientation: portrait)
     article {
         padding-top: 2em;
     }
+    footer {
+        word-wrap: break-word;
+        padding-left: 1em;
+        margin: auto;
+    }
     .right_wing {
         position: absolute;
         right: auto;
