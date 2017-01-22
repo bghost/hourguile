@@ -102,6 +102,9 @@ footer {
     float: right;
     margin: 1em 0 0 0;
 }
+.time {
+    padding: 0em 0em .5em 0em;
+}
 time {
     color: #C8C8C8;
 }
