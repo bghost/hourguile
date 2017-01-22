@@ -117,6 +117,13 @@ and (orientation: portrait)
     * {
         word-wrap: break-word;
     }
+
+    body {
+        margin-left: 1em;
+        margin-right: 1em;
+        padding: auto;
+    }
+
     article {
         padding-top: 2em;
     }
