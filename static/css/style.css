@@ -110,14 +110,18 @@ time {
     color: #C8C8C8;
 }
 
-@media (max-width: 800px) {
+@media only screen
+and (min-width: 360px)
+and (orientation: portrait)
+/*and (-webkit-min-device-pixel-ratio: 3.0)*/ {
     * {
         word-wrap: break-word;
     }
     .right_wing {
         position: absolute;
         right: auto;
-        bottom: 10em;
+        top: 55%;
+        padding-bottom: 3.5em;
     }
     nav ul, nav li {
         display: list-item;
