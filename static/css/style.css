@@ -122,7 +122,7 @@ and (orientation: portrait)
     }
     footer {
         word-wrap: break-word;
-        padding-left: 1em;
+        padding-left: 0.5em;
         margin: auto;
     }
     .right_wing {
