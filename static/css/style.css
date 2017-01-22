@@ -69,6 +69,7 @@ footer {
     bottom: 0px;
     left: 0px;
     padding-left: 3em;
+    margin-right: 10px;
     clear: both;
 }
 
@@ -107,4 +108,18 @@ footer {
 }
 time {
     color: #C8C8C8;
+}
+
+@media (max-width: 800px) {
+    * {
+        word-wrap: break-word;
+    }
+    .right_wing {
+        position: absolute;
+        right: auto;
+        bottom: 10em;
+    }
+    nav ul, nav li {
+        display: list-item;
+    }
 }
