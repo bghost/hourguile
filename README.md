@@ -1,6 +1,6 @@
 # hourguile
 
-hourguile — [Hugo](//gohugo.io/) theme used for [bghost.xyz]{https://bghost.xyz} forked from bghost/hourguile
+hourguile — [Hugo](//gohugo.io/) theme used for [bghost.xyz](https://bghost.xyz) forked from vimux/blank
 
 ## Installation
 
