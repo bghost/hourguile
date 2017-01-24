@@ -1,9 +1,9 @@
-name = "Blank"
+name = "ourguile"
 license = "MIT"
-licenselink = "https://github.com/vimux/blank/blob/master/LICENSE.md"
-description = "Starter Hugo theme for developers."
-homepage = "https://github.com/vimux/blank/"
-tags = ["blog", "plain", "blank", "starter"]
+licenselink = "https://github.com/bghost/ourguile/blob/master/LICENSE.md"
+description = "HUGO theme for bghost.xyz"
+homepage = "https://github.com/bghost/ourguile/"
+tags = ["blog", "minimal", "dark"]
 features = ["blog"]
 min_version = 0.17
 
