@@ -20,7 +20,7 @@ For more information read the official [setup guide](//gohugo.io/overview/instal
 
 ## Contributing
 
-Bug(s) or feature request(s)? Use the [issue tracker](//github.com/bghost/hourguile/issues) or submit a [pull request](//github.com/bghost/hourguile/pulls).
+Bug(s) or feature request(s)? Submit a [pull request](//github.com/bghost/hourguile/pulls).
 
 ## License
 
