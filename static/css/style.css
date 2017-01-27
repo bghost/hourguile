@@ -135,7 +135,7 @@ and (orientation: portrait)
     .right_wing {
         position: absolute;
         right: auto;
-        top: 55%;
+        top: 70%;
         padding-bottom: 3.5em;
     }
     nav ul, nav li {
