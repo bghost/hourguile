@@ -133,12 +133,18 @@ and (orientation: portrait)
         margin: auto;
     }
     .right_wing {
-        position: absolute;
+        position: fixed;
         right: auto;
-        top: 70%;
+        top: 50%;
+        margin-left: auto;
+        padding-right: auto;
         padding-bottom: 3.5em;
+    }
+    .right_wing ul {
+        padding-left: 10px;
     }
     nav ul, nav li {
         display: list-item;
+        padding-left: 0px;
     }
 }
