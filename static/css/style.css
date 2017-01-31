@@ -10,6 +10,7 @@ body {
     margin: 3em;
     color: #888;
     background: #181818;
+    background-position: 0% 10%;
     max-width: 50em;
     padding: 1em 0em 1em 0em;
 }
@@ -122,6 +123,7 @@ and (orientation: portrait)
         margin-left: 1em;
         margin-right: 1em;
         padding: auto;
+        background-position: 0% 0%;
     }
 
     article {
