@@ -7,10 +7,10 @@
 }
 
 body {
-    margin: 3em;
-    color: #888;
-    background: #181818;
     background-position: 0% 10%;
+    background: #181818;
+    color: #888;
+    margin: 3em;
     max-width: 50em;
     padding: 1em 0em 1em 0em;
 }
@@ -45,9 +45,9 @@ pre {
 }
 
 code {
-    color:  #F8F8F2;
-    border: 1px solid #FFF;
-    background: #272822;
+    border: 1px solid #F90;
+    color:  #F90;
+    line-height: 1.4em;
 }
 
 nav ul,
