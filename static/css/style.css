@@ -40,8 +40,13 @@ a:hover {
     font-style: italic;
 }
 
+.highlight {
+    border-radius: .5em;
+}
+
 pre {
     overflow:auto;
+    padding: .5em;
 }
 
 code {
