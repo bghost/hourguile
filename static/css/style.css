@@ -68,7 +68,7 @@ nav a:active {
 }
 
 header {
-    background-color: #181818;
+    background-color: rgba(24, 24, 24, 1);
     width: 100%;
     position: fixed;
     top: 0px;
@@ -77,7 +77,7 @@ header {
 }
 
 footer {
-    background-color: #181818;
+    background-color: rgba(24, 24, 24, 1);
     width: 100%;
     position: fixed;
     bottom: 0px;
