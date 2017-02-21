@@ -142,6 +142,10 @@ and (orientation: portrait)
         background-position: 0% 0%;
     }
 
+    #main {
+        padding-bottom: 5em!important;
+    }
+
     article {
         padding-top: 2em;
     }
@@ -155,7 +159,7 @@ and (orientation: portrait)
     .right_wing {
         position: fixed;
         right: auto;
-        top: 45%;
+        top: 50%;
         margin-left: auto;
         padding-right: auto;
     }
