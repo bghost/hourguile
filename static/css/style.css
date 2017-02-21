@@ -135,6 +135,10 @@ and (orientation: portrait)
         word-wrap: break-word;
     }
 
+    #main {
+        padding-bottom: 3.5em;
+    }
+
     body {
         margin-left: 1em;
         margin-right: 1em;
@@ -158,7 +162,6 @@ and (orientation: portrait)
         top: 50%;
         margin-left: auto;
         padding-right: auto;
-        padding-bottom: 3.5em!important;
     }
 
     .right_wing ul {
