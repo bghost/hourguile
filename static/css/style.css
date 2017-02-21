@@ -97,6 +97,7 @@ footer {
 
 .right_wing {
     display: inline;
+    background-color: rgba(24, 24, 24, 0.5);
     position: fixed;
     right: 20px;
     padding-right: 3%;
