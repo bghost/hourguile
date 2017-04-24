@@ -10,7 +10,7 @@ body {
     background-position: 0% 10%;
     background: #181818;
     color: #888;
-    margin: 3em;
+    margin: 3em auto 3em auto;
     max-width: 50em;
     padding: 1em 0em 1em 0em;
 }
@@ -111,6 +111,7 @@ footer {
 
 .page {
     font-weight: bolder;
+    margin: 1em;
 }
 
 .paginate {
@@ -130,6 +131,7 @@ time {
 
 @media only screen
 and (min-width: 360px)
+and (max-width: 800px)
 and (orientation: portrait)
 /*and (-webkit-min-device-pixel-ratio: 3.0)*/ {
     * {
