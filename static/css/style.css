@@ -2,6 +2,15 @@
     font-family: Inconsolata, "Roboto Mono", "Noto Mono", monospace;
 }
 
+::moz-selection {
+    color: white;
+    background: #F36;
+}
+::selection {
+    color: white;
+    background: #F36;
+}
+
 main {
     padding-bottom: 3em;
 }
