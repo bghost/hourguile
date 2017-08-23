@@ -119,6 +119,10 @@ footer {
     margin-left: 20px!important;
 }
 
+.right_wing h3 {
+    margin-left: 1em;
+}
+
 .right_wing ul,
 .right_wing li {
     list-style: none;
