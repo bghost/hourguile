@@ -8,11 +8,11 @@
         {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
         {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
         <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css"
-                               crossorigin="anonymous"
-                               integrity="sha512-wGhsiA8zbX/sG1ukda9IYydGYGUN+gJa/Xh/WclbBGR+xh2/+zE9om3PPrwwK5k6AiSBUvOQ81H8KIu70CnkSA==">
+                               integrity="sha512-wGhsiA8zbX/sG1ukda9IYydGYGUN+gJa/Xh/WclbBGR+xh2/+zE9om3PPrwwK5k6AiSBUvOQ81H8KIu70CnkSA=="
+                               crossorigin="anonymous">
         <link rel="stylesheet" href="{{ .Site.BaseURL }}css/gruvbox.css"
-                               crossorigin="anonymous"
-                               integrity="sha512-7nVughVX3i4Ry9azGuX8J5MRyy43vcf6T3qSLjn6BO98yB3UmqiQtFkviFv9IdGkm2c+KNyPoo/HsjB+yJ/bSQ==">
+                               integrity="sha512-7nVughVX3i4Ry9azGuX8J5MRyy43vcf6T3qSLjn6BO98yB3UmqiQtFkviFv9IdGkm2c+KNyPoo/HsjB+yJ/bSQ=="
+                               crossorigin="anonymous">
         <!--    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto+Mono" rel="stylesheet"> -->
         {{ if .RSSLink -}}
         <link href="{{ .RSSLink  }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title  }}" />
