@@ -160,7 +160,6 @@ and (orientation: portrait)
     body {
         margin-left: 1em;
         margin-right: 1em;
-        padding: auto;
         background-position: 0% 0%;
     }
 
@@ -177,7 +176,6 @@ and (orientation: portrait)
     .right_wing {
         bottom: 6em!important;
         margin-left: auto;
-        padding-right: auto;
         position: fixed;
         right: auto;
     }
