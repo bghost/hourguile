@@ -7,7 +7,7 @@
             <ul>
                 {{ range first 15 .Site.Pages }}
                     {{ if eq .Type "post" }}
-                    <li><a href="{{ .Permalink }}">{{ .Title }}</a> <strong>|</strong> {{ .Date.Format "2006.01.02" }}</li>
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <strong>|</strong> {{ .Date.Format "2006.01.02" }}</li>
                     {{ end }}
                 {{ end }}
             </ul>
