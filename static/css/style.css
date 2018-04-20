@@ -25,7 +25,7 @@ body {
 }
 
 #homebody {
-    background-image: url(/images/glome.jpg);
+    background-image: url("/images/gloom.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
