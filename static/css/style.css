@@ -40,6 +40,12 @@ h3 {
     color: #FFF;
 }
 
+h4,
+h5,
+h6 {
+    color: #C8C8C8;
+}
+
 a {
     text-decoration: none;
 }
@@ -60,15 +66,9 @@ a:hover {
 }
 
 pre {
-    overflow:auto;
+    overflow: auto;
     padding: .5em;
 }
-
-/* code {
-    border: 1px solid #F90;
-    color:  #F90;
-    line-height: 1.4em;
-} */
 
 nav ul,
 nav li {
@@ -180,10 +180,10 @@ and (orientation: portrait)
     }
 
     .right_wing {
-        bottom: 6em!important;
-        margin-left: auto;
+        bottom: 5em;
+        margin: auto auto .5em auto;
+		right: auto;
         position: fixed;
-        right: auto;
     }
 
     .right_wing ul {
