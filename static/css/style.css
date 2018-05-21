@@ -1,151 +1,151 @@
 * {
-    font-family: Inconsolata, "Roboto Mono", "Noto Mono", monospace;
+	font-family: Inconsolata, "Roboto Mono", "Noto Mono", monospace;
 }
 
 ::moz-selection {
-    color: white;
-    background: #F36;
+	color: white;
+	background: #F36;
 }
 ::selection {
-    color: white;
-    background: #F36;
+	color: white;
+	background: #F36;
 }
 
 main {
-    padding-bottom: 3em;
+	padding-bottom: 3em;
 }
 
 body {
-    background-position: 0% 10%;
-    background: #181818;
-    color: #888;
-    margin: 3em auto 3em auto;
-    max-width: 50em;
-    padding: 1em 0em 1em 0em;
+	background-position: 0% 10%;
+	background: #181818;
+	color: #888;
+	margin: 3em auto 3em auto;
+	max-width: 50em;
+	padding: 1em 0em 1em 0em;
 }
 
 #homebody {
-    background-image: url(../images/gloom.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url(../images/gloom.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .frontmatter h3 {
-    color: #C8C8C8;
+	color: #C8C8C8;
 }
 
 h1,
 h2,
 h3 {
-    color: #FFF;
+	color: #FFF;
 }
 
 h4,
 h5,
 h6 {
-    color: #C8C8C8;
+	color: #C8C8C8;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 a:link,
 a:visited {
-    color: #F36;
-    font-weight: bold;
+	color: #F36;
+	font-weight: bold;
 }
 
 a:hover {
-    color: #F90;
-    font-style: italic;
+	color: #F90;
+	font-style: italic;
 }
 
 .highlight {
-    border-radius: .5em;
+	border-radius: .5em;
 }
 
 pre {
-    overflow: auto;
-    padding: .5em;
+	overflow: auto;
+	padding: .5em;
 }
 
 nav ul,
 nav li {
-    list-style: none;
-    display: inline-table;
-    margin-right: 3em;
+	list-style: none;
+	display: inline-table;
+	margin-right: 3em;
 }
 
 nav a:active {
-    color: #181818;
-    background-color: #F36;
+	color: #181818;
+	background-color: #F36;
 }
 
 header {
-    background-color: rgba(24, 24, 24, 1);
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    padding-left: 1em;
+	background-color: rgba(24, 24, 24, 1);
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding-left: 1em;
 }
 
 footer {
-    background-color: rgba(24, 24, 24, 1);
-    width: 100%;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    padding-left: 3em;
-    margin-right: 10px;
-    clear: both;
+	background-color: rgba(24, 24, 24, 1);
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	padding-left: 3em;
+	margin-right: 10px;
+	clear: both;
 }
 
 .left_wing {
-    display: inline;
-    position: fixed;
-    left: 20px;
-    padding-left: 3%;
-    margin-right: 20px!important;
+	display: inline;
+	position: fixed;
+	left: 20px;
+	padding-left: 3%;
+	margin-right: 20px!important;
 }
 
 .right_wing {
-    display: inline;
-    background-color: rgba(24, 24, 24, 0.8);
-    position: fixed;
-    right: 1em;
-    padding-right: 3%;
-    margin-left: 1em!important;
+	display: inline;
+	background-color: rgba(24, 24, 24, 0.8);
+	position: fixed;
+	right: 1em;
+	padding-right: 3%;
+	margin-left: 1em!important;
 }
 
 .right_wing h3 {
-    margin-left: 1em;
+	margin-left: 1em;
 }
 
 .right_wing ul,
 .right_wing li {
-    list-style: none;
+	list-style: none;
 }
 
 .page {
-    font-weight: bolder;
-    margin: 1em;
+	font-weight: bolder;
+	margin: 1em;
 }
 
 .paginate {
-    display: inline-block;
-    position: relative;
-    float: right;
-    margin-top: 1em;
+	display: inline-block;
+	position: relative;
+	float: right;
+	margin-top: 1em;
 }
 
 .time {
-    padding: 0em 0em .5em 0em;
+	padding: 0em 0em .5em 0em;
 }
 
 time {
-    color: #C8C8C8;
+	color: #C8C8C8;
 }
 
 #timestamp {
@@ -159,39 +159,42 @@ and (min-width: 360px)
 and (max-width: 800px)
 and (orientation: portrait)
 /*and (-webkit-min-device-pixel-ratio: 3.0)*/ {
-    * {
-        word-wrap: break-word;
-    }
+	* {
+		word-wrap: break-word;
+	}
 
-    body {
-        margin-left: 1em;
-        margin-right: 1em;
-        background-position: 0% 0%;
-    }
+	body {
+		margin-left: 1em;
+		margin-right: 1em;
+		background-position: 0% 0%;
+	}
 
-    article {
-        padding-top: 2em;
-    }
+	article {
+		padding-top: 2em;
+	}
 
-    footer {
-        word-wrap: break-word;
-        padding-left: 0.5em;
-        margin: auto;
-    }
+	footer {
+		word-wrap: break-word;
+		padding-left: 0.5em;
+		margin: auto;
+	}
 
-    .right_wing {
-        bottom: 5em;
-        margin: auto auto .5em auto;
+	.right_wing {
+		bottom: 5em;
+		margin: auto auto .5em auto;
 		right: auto;
-        position: fixed;
-    }
+		position: fixed;
+	}
+	.right_wing h3 {
+		margin: .8em 1em .8em 1em;
+	}
 
-    .right_wing ul {
-        padding-left: 10px;
-    }
+	.right_wing ul {
+		padding-left: 10px;
+	}
 
-    nav ul, nav li {
-        display: list-item;
-        padding-left: 0px;
-    }
+	nav ul, nav li {
+		display: list-item;
+		padding-left: 0px;
+	}
 }
