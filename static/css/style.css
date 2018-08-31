@@ -39,12 +39,12 @@ a:hover {
 }
 
 body {
-	background: #FFF;
-	color: #383838;
+	background: #181818;
+	color: #888;
 }
 
 header {
-	background-color: #FFF;
+	background-color: rgba(24, 24, 24, 1);
 	width: 100%;
 	position: fixed;
 	top: 0px;
@@ -122,7 +122,7 @@ pre {
 }
 
 time {
-	background-color:#f5f5f5;
+	color: #C8C8C8;
 }
 
 #timestamp {
@@ -152,7 +152,7 @@ time {
 }
 
 #bg	{
-	background-image: url("../images/grass_horizon.jpg");
+	background-image: url("../images/gloom.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
