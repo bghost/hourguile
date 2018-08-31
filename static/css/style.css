@@ -1,49 +1,17 @@
 * {
-	font-family: Inconsolata, "Roboto Mono", "Noto Mono", monospace;
-}
-
-::moz-selection {
-	color: white;
-	background: #F36;
-}
-::selection {
-	color: white;
-	background: #F36;
-}
-
-main {
-	padding-bottom: 3em;
-}
-
-body {
-	background-position: 0% 10%;
-	background: #181818;
-	color: #888;
-	margin: 3em auto 3em auto;
-	max-width: 50em;
-	padding: 1em;
-}
-
-#homebody {
-	background-image: url(../images/gloom.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.frontmatter h3 {
-	color: #C8C8C8;
+	font-family: Inconsolata, "Roboto Mono", "Noto Mono", Menlo, monospace;
 }
 
 h1,
 h2,
 h3 {
-	color: #FFF;
+	color: #484848;
 }
 
 h4,
 h5,
 h6 {
-	color: #C8C8C8;
+	color: #585858;
 }
 
 a {
@@ -57,33 +25,26 @@ a:visited {
 }
 
 a:hover {
-	color: #F90;
-	font-style: italic;
-}
-
-.highlight {
-	border-radius: .5em;
-}
-
-pre {
-	overflow: auto;
-	padding: .5em;
-}
-
-nav ul,
-nav li {
-	list-style: none;
-	display: inline-table;
-	margin-right: 3em;
-}
-
-nav a:active {
 	color: #181818;
 	background-color: #F36;
 }
 
+::moz-selection {
+	color: white;
+	background: #F36;
+}
+::selection {
+	color: white;
+	background: #F36;
+}
+
+body {
+	background: #FFF;
+	color: #383838;
+}
+
 header {
-	background-color: rgba(24, 24, 24, 1);
+	background-color: #FFF;
 	width: 100%;
 	position: fixed;
 	top: 0px;
@@ -91,8 +52,45 @@ header {
 	padding-left: 1em;
 }
 
+nav ul,
+nav li {
+	list-style: none;
+	display: inline-table;
+	margin-right: 2.5em;
+}
+
+nav a:active {
+	color: #181818;
+	background-color: #F36;
+}
+
+#page_nav {
+	padding-top: 1em;
+	text-align: center;
+}
+
+main {
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-left: 1em;
+	margin: 3em auto 3em auto;
+	max-width: 55em;
+}
+
+article {
+}
+
+aside {
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 3em;
+	margin: 3em auto 3em auto;
+	max-width: 55em;
+}
+
 footer {
-	background-color: rgba(24, 24, 24, 1);
+	background-color: #FFF;
 	width: 100%;
 	position: fixed;
 	bottom: 0px;
@@ -102,50 +100,29 @@ footer {
 	clear: both;
 }
 
-.left_wing {
-	display: inline;
-	position: fixed;
-	left: 20px;
-	padding-left: 3%;
-	margin-right: 20px!important;
+pre {
+	overflow: auto;
+	padding: .5em;
 }
 
-.right_wing {
-	display: inline;
-	background-color: rgba(24, 24, 24, 0.8);
-	position: fixed;
-	right: 1em;
-	padding-right: 3%;
-	margin-left: 1em!important;
+.highlight {
+	/*border-radius: .5em;*/
 }
 
-.right_wing h3 {
-	margin-left: 1em;
+.chroma {
+	overflow-y: auto;
+	max-height: 45em;
 }
 
-.right_wing ul,
-.right_wing li {
-	list-style: none;
-}
-
-.page {
-	font-weight: bolder;
-	margin: 1em;
-}
-
-.paginate {
-	display: inline-block;
-	position: relative;
-	float: right;
-	margin-top: 1em;
-}
-
-.time {
-	padding: 0em 0em .5em 0em;
+.ilc {
+	background: #282828;
+	color: #ebdbb2;
+	line-height: 1.4;
+	padding: 0.1em 0.2em 0.1em 0.2em;
 }
 
 time {
-	color: #C8C8C8;
+	background-color:#f5f5f5;
 }
 
 #timestamp {
@@ -154,48 +131,92 @@ time {
 	right: 1em;
 }
 
+.time {
+	padding: 0em 0em .5em 0em;
+}
+
+#entry {
+	text-align: center;
+	color: #f5f5f5;
+	padding-top: 10em;
+	padding-bottom: 10em;
+}
+
+#entry a {
+	color: #fff;
+}
+
+#entry a:hover,
+#entry a:active {
+	padding: 0.3em;
+}
+
+#bg	{
+	background-image: url("../images/grass_horizon.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.page {
+	margin: 1em;
+}
+
+.break {
+	overflow-wrap: break-word;
+}
+
 @media only screen
-and (min-width: 360px)
-and (max-width: 800px)
-and (orientation: portrait)
-/*and (-webkit-min-device-pixel-ratio: 3.0)*/ {
-	* {
-		word-wrap: break-word;
+and (min-width: 300px)
+and (max-width: 900px)
+and (orientation: landscape) {
+
+	nav ul,
+	nav li {
+		padding-left: 0;
 	}
 
+	footer {
+		padding-left: 1em;
+	}
+}
+
+@media only screen
+and (max-width: 700px)
+and (orientation: landscape) {
+
+	#timestamp {
+		display: none;
+	}
+
+}
+
+@media only screen
+and (min-width: 300px)
+and (max-width: 62em)
+and (orientation: portrait)
+/*and (-webkit-min-device-pixel-ratio: 3.0)*/ {
+
 	body {
-		margin-left: 1em;
-		margin-right: 1em;
 		margin-bottom: 4.5em;
 		background-position: 0% 0%;
 	}
 
+	nav ul,
+	nav li {
+		display: list-item;
+		padding-left: 0;
+	}
+
+	main {
+		padding-top: 3em;
+	}
+
 	article {
-		padding-top: 2em;
 	}
 
 	footer {
-		word-wrap: break-word;
-		padding-left: 0.5em;
+		padding-left: 1em;
 		margin: auto;
 	}
 
-	.right_wing {
-		bottom: 5em;
-		margin: auto auto .5em auto;
-		right: auto;
-		position: fixed;
-	}
-	.right_wing h3 {
-		margin: .8em 1em .8em 1em;
-	}
-
-	.right_wing ul {
-		padding-left: 10px;
-	}
-
-	nav ul, nav li {
-		display: list-item;
-		padding-left: 0px;
-	}
 }
