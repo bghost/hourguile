@@ -1,40 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>{{ .Title }}</title>
-        {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-        {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-        <link rel="stylesheet" href="/css/style.css"
-                               integrity="sha512-bIw9F0wmw4/xO2M2KdEGJCNhHH+F05GjjP+IAyS4mdtbJmYjFSoyjXc5kSYhN769Y7M0HShNDmTDx0VrkPowNg==
-							              sha384-yGCv40GecGHBr9KLJZm4WmstoALU0pTxdzG2dRTiiKjOmlscqQyOrXMm8uUW67th
-							              sha256-UnmYXLdDnnkKu45O1Zi5YIXh5UhsZ6VmCowWKUAYKz4="
-                               crossorigin="anonymous">
-        <link rel="stylesheet" href="/css/gruvbox.css"
-                               integrity="sha512-7nVughVX3i4Ry9azGuX8J5MRyy43vcf6T3qSLjn6BO98yB3UmqiQtFkviFv9IdGkm2c+KNyPoo/HsjB+yJ/bSQ== 
-							   			  sha384-HjSoMchz0TK03mqWr5mCx+kYZd3cBcaEtBO/RvnbSbuBkpz9hbK3dsIjg/ZhmvXL 
-							   			  sha256-mMWYF/7289op+7nD1Ew6UxI1DPJ71+9+N2a83aQoUzA="
-                               crossorigin="anonymous">
-        <!--    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto+Mono" rel="stylesheet"> -->
-        {{ if .RSSLink -}}
-        <link href="{{ .RSSLink  }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title  }}" />
-        <!--        <link href="{{ .RSSLink  }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title  }}" />-->
-        {{- end }}
-        {{ .Hugo.Generator }}
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="/">{{ .Site.Title }}</a></li>
-                    {{ range .Site.Menus.main }}
-                    <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-                    {{ end }}
-                </ul>
-            </nav>
+	{{ partial "head.html" . }}
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="/">{{ .Site.Title }}</a></li>
+					{{ range .Site.Menus.main }}
+					<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+					{{ end }}
+					<li><a href="https://fog.vincible.space">cloud</a></li>
+				</ul>
+			</nav>
 			<div id="timestamp">
 				<time>{{ now.Format "2006.01.02 15:04" }}</time>
 			</div>
-        </header>
+		</header>

@@ -1,0 +1,15 @@
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>{{ .Title }}</title>
+	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/gruvbox.css"
+						   integrity="sha512-7nVughVX3i4Ry9azGuX8J5MRyy43vcf6T3qSLjn6BO98yB3UmqiQtFkviFv9IdGkm2c+KNyPoo/HsjB+yJ/bSQ== 
+						   sha384-HjSoMchz0TK03mqWr5mCx+kYZd3cBcaEtBO/RvnbSbuBkpz9hbK3dsIjg/ZhmvXL 
+						   sha256-mMWYF/7289op+7nD1Ew6UxI1DPJ71+9+N2a83aQoUzA="
+						   crossorigin="anonymous">
+	{{ .Hugo.Generator }}
+</head>
