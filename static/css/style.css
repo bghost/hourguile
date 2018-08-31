@@ -64,11 +64,6 @@ nav a:active {
 	background-color: #F36;
 }
 
-#page_nav {
-	padding-top: 1em;
-	text-align: center;
-}
-
 main {
 	padding-top: 1em;
 	padding-right: 1em;
@@ -122,10 +117,6 @@ pre {
 	padding: 0.1em 0.2em 0.1em 0.2em;
 }
 
-time {
-	color: #C8C8C8;
-}
-
 #timestamp {
 	position: fixed;
 	top: 1em;
@@ -160,6 +151,19 @@ time {
 
 .page {
 	margin: 1em;
+}
+
+.pagination {
+	list-style: none;
+	text-align: center;
+}
+
+.pagination li {
+	display: inline;
+}
+
+time {
+	color: #C8C8C8;
 }
 
 .break {
