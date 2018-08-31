@@ -1,16 +1,16 @@
-name = "ourguile"
+name = "hourguile"
 license = "MIT"
-licenselink = "https://github.com/bghost/ourguile/blob/master/LICENSE.md"
+licenselink = "https://github.com/bghost/hourguile/blob/master/LICENSE"
 description = "HUGO theme for bghost.xyz"
-homepage = "https://github.com/bghost/hourguile/"
-tags = ["blog", "minimal", "dark"]
+homepage = "https://github.com/bghost/hourguile"
+tags = ["blog", "minimal"]
 features = ["blog"]
-min_version = 0.17
+min_version = "0.41"
 
 [author]
   name = "bghost"
-  homepage = "https://github.com/bghost"
+  homepage = "https://bghost.xyz"
 
-[original]
-  name = "Vimux"
+ [original]
+  name = "vimux"
   homepage = "https://github.com/vimux"
