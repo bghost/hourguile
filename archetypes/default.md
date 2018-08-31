@@ -1,5 +1,6 @@
 +++
+title = ""
 menu = ""
 type = ""
-Draft = true
+draft = true
 +++
