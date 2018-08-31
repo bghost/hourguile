@@ -1,16 +1,14 @@
 <aside>
-    <div>
-        <div>
-            <h3>latest posts</h3>
-        </div>
-        <div>
-            <ul>
-                {{ range first 15 .Site.Pages }}
-                    {{ if eq .Type "post" }}
-                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <strong>|</strong> {{ .Date.Format "2006.01.02" }}</li>
-                    {{ end }}
-                {{ end }}
-            </ul>
-        </div>
-    </div>
+	<div>
+		<div>
+			<h3>recent articles</h3>
+		</div>
+		<div>
+			<ul>
+				{{ range first 5 (where .Site.RegularPages "Section" "post") }}
+				<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> {{ .Date.Format "2006.01.02" }}</li>
+				{{ end }}
+			</ul>
+		</div>
+	</div>
 </aside>

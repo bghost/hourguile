@@ -6,13 +6,6 @@
 			<div>
 				{{ .Content }}
 			</div>
-			<!-- <div>
-				<ul id="tags">
-					{{ range .Params.tags }}
-					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
-					{{ end }}
-				</ul>
-			</div> -->
 		</article>
 	</main>
 {{ partial "sidebar.html" . }}
