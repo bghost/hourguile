@@ -72,6 +72,7 @@ nav a:active {
 main {
 	padding-top: 1em;
 	padding-right: 1em;
+	padding-bottom: 3em;
 	padding-left: 1em;
 	margin: 3em auto 3em auto;
 	max-width: 55em;
