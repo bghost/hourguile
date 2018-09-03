@@ -11,6 +11,6 @@ min_version = "0.41"
   name = "bghost"
   homepage = "https://bghost.xyz"
 
- [original]
+[original]
   name = "vimux"
   homepage = "https://github.com/vimux"
