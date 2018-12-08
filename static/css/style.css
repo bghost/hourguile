@@ -144,6 +144,7 @@ pre {
 }
 
 #bg	{
+    height: 100%;
 	background-image: url("../images/ground_frog.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
