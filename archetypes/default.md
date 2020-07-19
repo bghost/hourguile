@@ -1,6 +1,6 @@
-+++
-title = ""
-menu = ""
-type = ""
-draft = true
-+++
+---
+title: ""
+menu: ""
+type: ""
+draft: true
+---
